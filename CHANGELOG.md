@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1 — 2026-11-23
+
+- First public npm release. `0.1.0` had been staged by an earlier attempt and was never published; `0.1.1` is identical in content.
+
 ## 0.1.0 — 2026-11-23
 
 ### Added
