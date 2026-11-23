@@ -1,0 +1,17 @@
+name: Feature request / 功能建议
+description: Suggest an improvement for the annotation workflow.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does it solve?
+      description: 描述你的实际修改流程里哪一步不顺手。
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: false

@@ -1,0 +1,43 @@
+name: Bug report / 问题反馈
+description: Annotation, the picker icon, or sending misbehaves.
+labels: [bug]
+body:
+  - type: input
+    id: dsh-version
+    attributes:
+      label: DSH version
+      description: 运行 `dsh --version`
+      placeholder: 0.2.2-rc.5
+    validations:
+      required: true
+  - type: input
+    id: plugin-version
+    attributes:
+      label: Plugin version
+      placeholder: 0.1.0
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: OS / client
+      placeholder: macOS 15 · desktop app
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. 打开左侧/右侧…
+        2. 点击…
+        3. 期望… / 实际…
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots / console errors
+      description: 请先打码隐私信息
+    validations:
+      required: false

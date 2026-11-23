@@ -1,0 +1,4 @@
+# Mount the browser annotation plugin for every profile.
+- insert:
+    - id: dsh-browser-annotate
+      name: dsh-browser-annotate
